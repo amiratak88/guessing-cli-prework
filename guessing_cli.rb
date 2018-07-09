@@ -15,11 +15,3 @@ def run_guessing_game
   end
   puts "Goodbye!"  
 end
-
-def qqq
-  puts "das"
-  puts `clear`
-  puts "adsadfdsfdsfdf"
-end
-
-qqq
