@@ -1,6 +1,5 @@
 # Code your solution here!
 def run_guessing_game
-  puts "Guess a number between 1 and 6."
   while true
     y = rand(1..6)
     x = gets.chomp
@@ -10,8 +9,8 @@ def run_guessing_game
       puts "Guess a number between 1 and 6."
       puts "You guessed the correct number!"
     else
-      puts "The computer guessed #{y}."
       puts "Guess a number between 1 and 6."
+      puts "The computer guessed #{y}."
     end
   end
   puts "Goodbye"  
