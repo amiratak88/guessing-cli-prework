@@ -7,8 +7,8 @@ def run_guessing_game
     if x == "exit"
       break
     elsif x.to_i == y
-      puts "You guessed the correct number!"
       puts "Guess a number between 1 and 6."
+      puts "You guessed the correct number!"
     else
       puts "The computer guessed #{y}."
       puts "Guess a number between 1 and 6."
