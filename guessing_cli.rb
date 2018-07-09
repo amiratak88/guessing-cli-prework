@@ -1,7 +1,5 @@
 # Code your solution here!
 def run_guessing_game
-        puts "You guessed the correct number!"
-
   while true
     y = rand(1..6)
     x = gets.chomp
